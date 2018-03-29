@@ -9,9 +9,7 @@ import javax.script.ScriptException;
 public class CalcMain {
 
 	public static void main(String[] args) {
-		/*
-		 * 1 부터 3까지를 문다열 exit 입력될때까지 반복한다.
-		 */	
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		boolean runStatus = true;
@@ -40,7 +38,7 @@ public class CalcMain {
 			}
 		} // while
 		
-		System.out.println("계산기를 종료하였습니다.e");
+		System.out.println("계산기를 종료하였습니다.");
 	}
 
 }
